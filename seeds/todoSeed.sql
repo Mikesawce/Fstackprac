@@ -1,3 +1,6 @@
-INSERT INTO todo (task) VALUES ('bake a cake');
-INSERT INTO todo (task) VALUES ('slap a map');
-INSERT INTO todo (task) VALUES ('choke a bloke');
+DELETE FROM todo;
+
+INSERT INTO todo (task, complete) VALUES
+    ('bake a cake', FALSE),
+    ('slap a map', FALSE),
+    ('choke a bloke', TRUE);
